@@ -1,6 +1,6 @@
 body
 {
-	background: url("imagen/eOGVo.png") no-repeat center fixed;
+	background: url("imagen/37068hd.jpg") no-repeat center fixed;
 	-webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
@@ -26,11 +26,21 @@ h1{
 }
 .introduccion
 {
-	width: 50%;
-	height: auto;
+	width: 40%;
+  height: auto;
 	position: fixed;
-	left: 25%;
+	left: 30%;
 	top: 25%;
+	padding: 10px;
+	font-family: "Century Gothic";
+}
+.formulario
+{
+	width: 40%;
+  height: auto;
+	position: fixed;
+	left: 30%;
+	top: 10%;
 	padding: 10px;
 	font-family: "Century Gothic";
 }
@@ -57,7 +67,7 @@ h1{
 {
 	font-family: "Century Gothic";
 	font-size: 20;
-	text-align: center;
+	text-align: left;
 	padding-right: 20px;
 	margin: 0px;
 	color: white;
@@ -94,15 +104,12 @@ h1{
 .clase-general
 {
   display: table-row;
-	text-align: center;
-	padding: 50px;
 }
 footer 
 {
    background: #0069D9; 
 	 height: 50px;
 	 color: white;
-	 
 }
 p
 {
@@ -116,6 +123,7 @@ a
 	font-family: "Century Gothic";
 	color:  white;	
 }
-.imagen-futuro{
-	background-image: url(/evaluacion_5/imagen/futuro.jpg);
+.linea
+{
+    display: inline-block;
 }

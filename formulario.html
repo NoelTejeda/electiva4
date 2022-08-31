@@ -2,19 +2,16 @@
 
 <head>
 	<meta charset="UTF-8">
-	<title>Futureme</title>
-	<link rel="stylesheet" type="text/css" href="style/desing.css">
-	<link rel="shortcut icon" href="imagen/logo_unexca.jpg">
-	<!-- bootstrap para los botones -->
+	<title>Registrar</title>
+	<link rel="stylesheet" type="text/css" href="desing.css">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
 		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 
 <body>
 	<h1>REGISTRARME</h1>
-	<div class="cuadro introduccion rounded_borders ">
-		<form action="guardar.php" method="get">
-			<!-- El elemento fieldset (grupo de campos) permite organizar en grupos los campos de un formulario. -->
+	<div class="cuadro formulario rounded_borders ">
+		<form action="guardar.php" method="get" style="margin:  auto ; width: 210px;">
 			<fieldset>
 				<legend class="subtitle"> Datos personales </legend>
 				Nombre: <input type="text" name="nombre" placeholder="Nombre" required>
@@ -22,6 +19,7 @@
 				Apellido: <input type="text" name="nombre" placeholder="Apellido" required>
 				<br><br>
 				correo electronico: <input type="text" name="nombre" placeholder="Correo electronico" required>
+				<br>
 			</fieldset>
 			<br><br>
 			<fieldset>
@@ -35,9 +33,11 @@
 				<br>
 			</fieldset>
 			<br>
-			<center><input type="button" value="Registrar" class="btn btn-primary"></center>
-			<br>
-			<center><a href="index.html"><input type="button" value="volver" class="btn btn-primary"></center></a>
+			<div>
+				<center><input type="submit" value="Registrar" class="btn btn-primary "></center>
+				<br>
+				<center><a href="iniciar.html"><input type="button" value="Volver" class="btn btn-primary "></center></a>
+			</div>
 		</form>
 		</form>
 	</div>
