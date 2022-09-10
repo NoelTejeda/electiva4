@@ -32,13 +32,8 @@ en el formulario:
 
 * agregar las lineas:
 
-<!-- 
-
-<?php
 			include("registrar.php");
-?>
 
- -->
  ------------------------------------
 
 * crear otro archivo llamado registrar.php para la lógica:
