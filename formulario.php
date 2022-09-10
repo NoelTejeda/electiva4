@@ -11,38 +11,42 @@
 <body>
 	<h1>REGISTRARME</h1>
 	<div class="cuadro formulario rounded_borders ">
-		<form action="guardar.php" method="get" style="margin:  auto ; width: 210px;">
+		<form  method="post" style="margin:  auto ; width: 210px;">
 			<fieldset>
 				<legend class="subtitle"> Datos personales </legend>
 				Nombre: <input type="text" name="nombre" placeholder="Nombre" required>
 
-				Correo electronico: <input type="email" name="nombre" placeholder="Correo electronico" required>
+				Correo electronico: <input type="email" name="email" placeholder="Correo electronico" required>
 
-				Número de Teléfono: <input type="number" name="nombre" placeholder="Teléfono" required>
+				Número de Teléfono: <input type="number" name="telefono" placeholder="Teléfono" required>
 
-				Página Web: <input type="text" name="nombre" placeholder="Página Web" required>
+				Página Web: <input type="text" name="paginaweb" placeholder="Página Web" required>
 
-				Mensaje: <input type="text" name="nombre" placeholder="Mensaje" required>
+				Mensaje: <input type="text" name="mensaje" placeholder="Mensaje" required>
 				<br>
 			</fieldset>
 			<br>
 			<fieldset>
 				<legend class="subtitle"> Datos del usuario </legend>
-				Usuario: <input type="text" name="nombre" placeholder="Usuario" required>
+				Usuario: <input type="text" name="usuario" placeholder="Usuario" required>
 
 				Contraseña:<input type="password" id="passwd1" size="20" placeholder="Contraseña" name="userpass" required>
 
-				Repetir contraseña:<input type="password" id="passwd2" size="20" placeholder="Contraseña" name="userpass"
-					required>
+				<!-- Repetir contraseña:<input type="password" id="passwd2" size="20" placeholder="Contraseña" name="userpass"
+					> -->
 				<br>
 			</fieldset>
 			<br>
 			<div>
-				<input type="submit" value="Registrar" class="btn btn-primary ">
+				<input type="submit" value="Registrar" name="register" class="btn btn-primary ">
 				<a href="iniciar.html"><input type="button" value="Cancelar" class="btn btn-primary "></a>
 			</div>
 		</form>
-		</form>
+
+		<?php
+			include("registrar.php");
+		?>
+
 	</div>
 	<footer class="clase-general">
 		<center>
@@ -57,3 +61,6 @@
 </body>
 
 </html>
+
+<!-- https://www.youtube.com/watch?v=cka0J41iJY0&t=927s -->
+<!-- https://github.com/soydalto/Conexion-a-mysql-con-php/blob/master/registrar.php -->

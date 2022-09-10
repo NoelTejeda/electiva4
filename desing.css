@@ -43,6 +43,8 @@ h1{
 	top: 10%;
 	padding: 10px;
 	font-family: "Century Gothic";
+	margin-bottom: 30px;
+	text-align: center;
 }
 .rounded_borders
 {
@@ -126,4 +128,18 @@ a
 .linea
 {
     display: inline-block;
+}
+.bad {
+	text-align : center ;
+	width : 100% ;
+	padding : 12px ;
+	background-color: #a22 ;
+	color : #fff
+}
+.ok {
+	text-align : center ;
+	width : 100% ;
+	padding : 12px ;
+	background-color: #1e8 ;
+	color : #fff
 }
