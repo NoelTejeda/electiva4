@@ -62,5 +62,3 @@
 
 </html>
 
-<!-- https://www.youtube.com/watch?v=cka0J41iJY0&t=927s -->
-<!-- https://github.com/soydalto/Conexion-a-mysql-con-php/blob/master/registrar.php -->
